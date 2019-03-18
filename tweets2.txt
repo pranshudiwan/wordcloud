@@ -1,0 +1,9 @@
+In Octavio et al[m], the authors implemented a convolutional neural network(CNN) in real time in a robot
+platform which has limited hardware capabilities for Emotion and Gender Classification. They proposed two
+CNN models. Both models were designed with the idea of creating the best accuracy over number of
+parameters ratio. The first model did not have any fully connected layers because the fully connected layers
+contain most of the parameters in a CNN. The last convolutional layer had same number of feature maps as
+the number of classes which was followed by an average pooling layers to reduce the number of parameters
+followed by a softmax layer to give the output prediction. They got an accuracy of 96% IMDB gender dataset
+and 66% on the FER-2013 emotion dataset. They used guided-gradient back-propagation proposed by
+Springenberg et al[n] to visualise the features learned by CNN.
